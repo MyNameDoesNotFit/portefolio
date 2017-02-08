@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h1>My First Heading</h1>
+ <?php include 'includes/header.php'; ?>
+<h1>Welcome to my domain</h1>
 <p>My first paragraph.</p>
 
 </body>
