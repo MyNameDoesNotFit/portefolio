@@ -71,3 +71,9 @@ li:last-child {
 }
 
 
+.content{
+    background: url('Afbeeldingen/pattern.jpg'); 
+    height: 100%; 
+    opacity: 0.7;
+    
+}
