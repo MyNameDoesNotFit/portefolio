@@ -11,8 +11,11 @@ body{
     
     
 }
+h1{
+    color: floralwhite
+}
 p{
-    color: white;
+    color: floralwhite;
 }
 
 .col-1 {width: 8.33%;}
