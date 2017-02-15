@@ -3,7 +3,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: #0d0d0d;
     
 }
 * {  box-sizing: border-box;
@@ -55,7 +55,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3D3380;
+    background-color: #00134d;
 }
 
 li {
@@ -68,14 +68,14 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #3D3380;
+    background-color: #00134d;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #262626;
 }
 .active {
-    background-color: #111;
+    background-color: #262626;
 }
 li {
     border-right: 1px solid #bbb;
@@ -86,4 +86,8 @@ li:last-child {
 }
 .assignment{
     border-right: none;
+    
+    text-align: left;
+    display:flex;
+    border-radius: 10px;
 }
