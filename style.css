@@ -55,7 +55,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3D3380;
 }
 
 li {
@@ -75,7 +75,7 @@ li a:hover {
     background-color: #111;
 }
 .active {
-    background-color: #4CAF50;
+    background-color: black;
 }
 li {
     border-right: 1px solid #bbb;
@@ -84,6 +84,6 @@ li {
 li:last-child {
     border-right: none;
 }
-a:active { 
-    background-color: black;
+.assignment{
+    border-right: none;
 }
