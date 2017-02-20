@@ -17,7 +17,7 @@ h1{
 p{
     color: floralwhite;
 }
-
+/*Grid system for making the site responsive*/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;
@@ -40,11 +40,6 @@ p{
     
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 
 
@@ -84,6 +79,8 @@ li {
 li:last-child {
     border-right: none;
 }
+
+/*Styling of the excersize links*/
 .assignment{
     border-right: none;
     
