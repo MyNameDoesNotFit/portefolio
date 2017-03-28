@@ -8,16 +8,29 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-* {  box-sizing: border-box;
-    font-family: "Garamond", Serif;
-    
-    
+* {  
+    box-sizing: border-box;    
 }
 h1{
-    color: floralwhite
+    color: floralwhite;
+    padding-top: 75%;
+    padding-left: 15%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Georgia", serif;
+    
+}
+
+h2{
+    color: floralwhite;
+    padding-left: 10%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Georgia", serif;
+    
 }
 p{
     color: floralwhite;
+    font-family: "Garamond", sans-serif;
+    
 }
 /*Grid system for making the site responsive*/
 .col-1 {width: 8.33%;}
@@ -41,9 +54,9 @@ background-color: transparent}
 }
 div.transbox {
     
-    background-color: bisque;
+    background-color: papayawhip;
     border: 1px solid white;
-    opacity: 0.7;
+    opacity: 0.85;
     padding-left: 10px;
 }
 
@@ -60,9 +73,11 @@ div.transbox p {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 25%;
     overflow: hidden;
-    background-color: #00134d;
+    background: linear-gradient(to bottom left, purple,darkorange);
+    opacity: 0.7;
+    
 }
 
 li {
@@ -71,32 +86,44 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: floralwhite;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 50px;
     text-decoration: none;
-    background-color: #00134d;
+    background-color: inherit;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
 }
 
 li a:hover {
-    background-color: #262626;
+    background-color: whitesmoke;
 }
 .active {
-    background-color: #262626;
+    background-color: whitesmoke;
 }
 li {
-    border-right: 1px solid #bbb;
+    border-right: 3px solid;
+    border-right-color: bisque
 }
 
-li:last-child {
-    border-right: none;
+li:first-child {
+    border-left: 3px solid;
+    border-left-color: bisque
 }
 
 /*Styling of the excersize links*/
-.assignment{
+#assignment{
     border-right: none;
-    
+    border-left: none:
+    opacity: 1;
     text-align: left;
     display:flex;
     border-radius: 10px;
+}
+#assignment li a:hover{
+    background-color: blanchedalmond;
+}
+}
+.menu{
+    opacity: 0.6;
 }
