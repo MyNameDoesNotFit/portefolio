@@ -4,7 +4,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: #0d0d0d;
-    background-image: url(Overige_Afbeeldingen/images.jpg);
+    background-image: url(Afbeeldingen/images.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -36,7 +36,8 @@ p{
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;
-background-color: transparent}
+background-color: transparent;
+padding-top: 67px;}
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 { width: 50%;}
@@ -58,6 +59,7 @@ div.transbox {
     border: 1px solid white;
     opacity: 0.85;
     padding-left: 10px;
+    margin: 2%;
 }
 
 div.transbox p {
@@ -114,7 +116,7 @@ li:first-child {
 /*Styling of the excersize links*/
 #assignment{
     border-right: none;
-    border-left: none:
+    border-left: none;
     opacity: 1;
     text-align: left;
     display:flex;
@@ -130,5 +132,12 @@ li:first-child {
 .img-circle {
     border-radius: 50%;
     margin-left: 16%;
-    margin-top: %;
+    height: 220px;
+    width: 200px;
+    position: absolute;
+    margin-top: 10px;
+}
+.images{
+    height: 150px;
+    width: 200px;
 }
