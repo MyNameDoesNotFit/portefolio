@@ -11,6 +11,7 @@ body{
 * {  
     box-sizing: border-box;    
 }
+/*Styling of the used text*/
 h1{
     color: floralwhite;
     padding-top: 30%;
@@ -32,7 +33,7 @@ p{
     font-family: "Garamond", sans-serif;
     
 }
-/*Grid system for making the site responsive*/
+/*Grid system for making the site responsive, taken directly from W3schools.*/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;
@@ -53,6 +54,7 @@ padding-top: 67px;}
     height: 100%;
     
 }
+/*Styling of the boxes with content*/
 div.transbox {
     
     background-color: papayawhip;
@@ -129,6 +131,7 @@ li:first-child {
 .menu{
     opacity: 0.6;
 }
+/*Styling of the home image, taken directly from W3schools*/
 .img-circle {
     border-radius: 50%;
     margin-left: 16%;
@@ -137,6 +140,7 @@ li:first-child {
     position: absolute;
     margin-top: 10px;
 }
+/*Styling of the excersize images*/
 .images{
     height: 150px;
     width: 200px;
